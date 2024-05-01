@@ -1,19 +1,12 @@
-This is a basic chess AI using a Min-Max tree with
-A-B pruning. The search depth is 3 and usually
-completes in less than 5 seconds. The evaluation 
-function used is the sum of the value of each 
-remaining piece plus the distance it has moved 
-forward multiplied by 0.25. The value is then 
-compared to that of the opposing player. It can be
-found in the eval method of the ChessGame class.
+This is a basic chess AI using a Min-Max tree with A-B pruning. The search depth is 3 and usually completes in less than 5 seconds. The evaluation function used is the sum of the value of each remaining piece plus the distance it has moved forward multiplied by 0.25. The value is then compared to that of the opposing player. It can befound in the eval method of the ChessGame class.
 
 The following rules have been implemented:
-  -Piece movement
-  -Piece taking
-  -Promotion
-  -Check
-  -Castling
-  -Checkmate
+  - Piece movement
+  - Piece taking
+  - Promotion
+  - Check
+  - Castling
+  - Checkmate
 
 Because putting oneself in check is permitted as a
 valid move in this case, stalemate conditions were 
